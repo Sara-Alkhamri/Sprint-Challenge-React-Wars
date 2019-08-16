@@ -22,9 +22,6 @@ border-radius: 10px;
 
 `
 
-
-
-
 const PeopleCards = (props) => {
 
     return (
