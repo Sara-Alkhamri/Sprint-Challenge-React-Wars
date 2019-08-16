@@ -14,7 +14,6 @@ justify-content: space-around;
 
 `;
 
-
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
@@ -28,15 +27,15 @@ const App = () => {
     axios
       .get("https://swapi.co/api/people/")
       .then(response => {
-        //console.log(response)
+        console.log(response)
         const info = response.data.results;
         setstPeople(info);
       })
       .catch(err => {
-        //console.log(err)
+        console.log(err)
       })
   }, [])
-  //console.log(stpeople);
+  console.log(stpeople);
 
   return (
     <div className="App">

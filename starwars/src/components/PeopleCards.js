@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 
-
+//styling
 const StyledH3 = styled.h3`
 font-size: 1.5rem;
 color: brown;
