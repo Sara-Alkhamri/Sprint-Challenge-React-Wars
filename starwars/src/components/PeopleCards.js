@@ -13,6 +13,4 @@ const PeopleCards = (props) => {
     )
 }
 
-
-
 export default PeopleCards;
